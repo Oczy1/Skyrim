@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Главная"
+})
+
+<body class="body">
+    <div class="wrapper">
+        @@include('_header.html',{})
+        <main class="page">
+            <section class="content-x1">
+                <div class="parallax">
+                    <div class="parallax__layer" id="parallax-0" data-speed="8"></div>
+                    <div class="parallax__layer" id="parallax-1" data-speed="16"></div>
+                    <div class="parallax__layer" id="parallax-2" data-speed="34"></div>
+                    <div class="parallax__layer" id="parallax-4" data-speed="50"></div>
+                    <div class="parallax__layer" id="parallax-5" data-speed="86"></div>
+                    <button class="parallax__btn icon-download" onclick="showModal ()">
+                        <span>Скачать Skyrim</span>
+                    </button>
+                </div>
+            </section>
+            <section class="content-x2">
+                <div class="content-x2__container container">
+                    <div class="column">
+                        <div class="column-left">
+                            <div class="column-left__title">
+                                <h2>THE ELDER SCROLLS V: <br>SKYRIM</h2>
+                            </div>
+                            <div class="column-left__subtitle">
+                                <h3 class="subtitle__title">Империя Тамриэла находится на грани падения. Король Скайрима
+                                    убит. Претенденты на трон объединяются в союзы. В разгар конфликта пробуждается
+                                    гораздо более опасное, древнее зло. Драконы, долгое время не появлявшиеся в
+                                    летописях, вернулись в Тамриэл. Будущее Скайрима и всей Империи висит на волоске,
+                                    все ждут предсказанного Драконорожденного, героя с силой Голоса, единственного, кто
+                                    сможет противостоять драконам.
+                                </h3>
+                                <button class="subtitle__btn btn icon-download" onclick="showModal ()">
+                                    <span>Скачать Skyrim</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="column-right">
+                            <div class="column-right__image">
+                                <img src="img/skyrim-svitok-0-4598243298.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-x3">
+                <div class="content-x3__container container">
+                    <div class="reverse">
+                        <div class="reverse__title">
+                            <h2>Дополнения<br>Legendary Edition</h2>
+                        </div>
+                        <div class="reverse__subtitle">
+                            <ul class="list-revers">
+                                <li class="revers-item">DRAGONBORN</li>
+                                <li class="revers-item">DAWNGUARD</li>
+                                <li class="revers-item">HEARTHFIRE</li>
+                            </ul>
+                        </div>
+                        <button class="reverse__btn btn icon-download" onclick="showModal ()">
+                            <span>Скачать Skyrim</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="content-x4">
+                <div class="content-x4__image">
+                    <img class="object" data-value="-6" src="img/skyrim-anduine-bg-2-32894234982481.png" alt="">
+                </div>
+                <div class="content-x4__container container">
+                    <div class="column">
+                        <div class="column-left">
+                            <div class="column-left__title">
+                                <h2>Моды для Skyrim</h2>
+                            </div>
+                            <div class="column-left__subtitle">
+                                <h3 class="subtitle__title">Моды для Skyrim позволят Вам значительно расширить
+                                    функционал игры, разнообразить и сделать игровой процесс более интересным. Выберите
+                                    мод который Вам понравится и опробуйте его уже сейчас!
+                                    Новые миры, оружия, многопользоватаельский мод и многие другие моды. </h3>
+                                <button class="subtitle__btn btn icon-download" onclick="showModal ()">
+                                    <span>Скачать Skyrim</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="column-right">
+                            <div class="column-right__title">
+                                <h3>Отзывы</h3>
+                            </div>
+                            <div class="column-right__block">
+                                <div class="block__title">
+                                    <span class="title-block">Олег</span>
+                                </div>
+                                <div class="block__txt">
+                                    <p class="txt-block">Наконец-то я смог установить стим! Спасибо вашему сайту, буду
+                                        теперь играть с друзьями в свою любимую доту 2 на пудже
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column-right__block">
+                                <div class="block__title">
+                                    <span class="title-block">Олег</span>
+                                </div>
+                                <div class="block__txt">
+                                    <p class="txt-block">Наконец-то я смог установить стим! Спасибо вашему сайту, буду
+                                        теперь играть с друзьями в свою любимую доту 2 на пудже
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column-right__block">
+                                <div class="block__title">
+                                    <span class="title-block">Олег</span>
+                                </div>
+                                <div class="block__txt">
+                                    <p class="txt-block">Наконец-то я смог установить стим! Спасибо вашему сайту, буду
+                                        теперь играть с друзьями в свою любимую доту 2 на пудже
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include('_footer.html',{})
+    </div>
+    @@include('_js.html', {})
+</body>
+
+</html>
